@@ -1,0 +1,19 @@
+{
+  "name": "serverless-jobcan-slack-api",
+  "version": "1.0.0",
+  "description": "Exec slack command api.",
+  "main": "handler.js",
+  "scripts": {
+    "deploy": "serverless deploy",
+    "invoke": "serverless invoke -l -f"
+  },
+  "author": "morihirok",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "serverless": "^1.32.0"
+  }
+}
